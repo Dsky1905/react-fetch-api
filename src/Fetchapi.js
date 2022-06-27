@@ -25,7 +25,7 @@ function Fetchapi() {
 
     return (
         <>
-            <div>Fetchapi</div>
+            <div>Hi Kirit and viren </div>
             <div className='container'>
             <div className='row'>
             {user.map(data =>(
