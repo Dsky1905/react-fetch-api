@@ -30,7 +30,7 @@ function Fetchapi() {
             <div className='row'>
             {user.map(data =>(
                 <div className='col-lg-4' key={data.id.value}>
-                <div><img src={data.picture.large}/> </div>
+                <div><img src={data.picture.large} alt="..."/> </div>
                 <div>Name:{data.name.first}</div>
                 <div>Date:{data.dob.date}</div>
                 <div>Age:{data.dob.age}</div>
